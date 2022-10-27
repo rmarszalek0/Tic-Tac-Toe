@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>TIC TAC TOE</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-buttons">
+        <button class="ai bi bi-robot">AI</button>
+        <button class="pvp bi bi-person">PVP</button>
+      </div>
+      <button class="color-theme">
+        Color theme: <br />
+        default
+      </button>
+    </nav>
+    <div class="play-container">
+      <p>SELECTED MODE:</p>
+      <p class="selected-mode"></p>
+      <button class="play">Play</button>
+    </div>
+    <div class="container">
+      <div class="flexbox">
+        <div class="box field1 bi"></div>
+        <div class="box field2 bi"></div>
+        <div class="box field3 bi"></div>
+        <div class="box field4 bi"></div>
+        <div class="box field5 bi"></div>
+        <div class="box field6 bi"></div>
+        <div class="box field7 bi"></div>
+        <div class="box field8 bi"></div>
+        <div class="box field9 bi"></div>
+      </div>
+    </div>
+    <div class="popup-container hidden">
+      <div class="popup">
+        <p class="winner-display">O WINS!</p>
+        <div class="button-container">
+          <p>Do you want to play again?</p>
+          <button class="play-again">YES</button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>

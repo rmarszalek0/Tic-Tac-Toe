@@ -1,0 +1,194 @@
+body{
+    background-color:#011627;
+    background-image: url(imgs/Kyoo\ Tah.jpg);
+   
+    background-size:cover;
+}
+
+
+
+.container{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 50vh;
+    background-color:#544a7da2;
+    justify-content: center;
+   align-items: center;
+ 
+}
+
+.box{
+    background-color: #f4f7f5d2;
+    margin: 1%;
+    width: 30%;
+    height: 31%;
+    border-radius: 10px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:5em;
+     opacity: 0.3;
+}
+
+.bi-x-lg{
+color: #f4000094;
+}
+.bi-circle{
+color: #5bc0eba9
+}
+
+
+
+
+.box:hover{
+    background-color: #f4f7f5;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.box:active{
+    background-color: #ffd452c7;
+}
+
+.popup-container{
+  
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    transform: translateY(-500);
+}
+
+.popup{
+    height: 40vh;
+    width: 50%;
+    background-color: #106cb3bb;
+    border-radius: 10px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.winner-display{
+font-size: 5em;
+}
+
+
+.button-container{
+margin-top: 5vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 2em;
+}
+
+.play-again{
+background-color: #f4f7f551;
+border: none;
+width:fit-content;
+border-radius: 5px;
+
+}
+
+
+.play-again:hover{
+    background-color: #f4f7f5;
+    transition: 0.3s;
+}
+.play-again:active{
+    box-shadow: rgba(138, 82, 82, 0.395) 5px 5px;
+}
+
+
+.hidden{
+  display: none !important;
+}
+
+nav{
+    background-color: #1E2019;
+    border-bottom: solid 20px #1e201900;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-buttons{
+margin-left: 5vh;
+
+    button{
+        background-color:#ffd452d6 ;
+        border: none;
+        margin: 2vh;
+        min-width: 10vh;
+        min-height: 7vh;
+        border-radius: 5px;
+        font-size: 2vh;
+        color: white;
+    }
+    button:hover{
+        opacity: 0.7;
+        transition: 0.3s;
+    }
+
+}
+
+.color-theme{
+    margin-right: 5vh;
+    border-radius: 5px;
+    background-color: #544a7d6a;
+    border: none;
+    color: white;
+    min-width: 15vh;
+    min-height: 7vh;
+    font-size: 2vh;
+
+}
+
+.play-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        color: #f4f7f5c1;
+        font-size: 
+        3vh;
+    }
+ 
+    
+}
+
+P.selected-mode{
+    color: #9d67e4;
+    min-height: 5vh;
+    font-weight: 500;
+}
+
+.play{
+    background-color:#ffd45264 ;
+    border: none;
+    font-size: 3vh;
+    width: 10vh;
+    margin-top: 5vh;
+    color: rgba(255, 255, 255, 0.695);
+    border-radius: 5px;
+}
+
+.play:hover{
+    background-color: #ffd452f3;
+    transition: 0.3s;
+    border-radius: 10px;
+}
