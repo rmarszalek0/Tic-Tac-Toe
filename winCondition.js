@@ -9,10 +9,12 @@ export function winCondition() {
     const row4 = [box1, box4, box7]
     const row5 = [box2, box5, box8]
     const row6 = [box3, box6, box9]
-    const rows = [row1, row2, row3, row4, row5, row6]
+    const row7 = [box1, box5, box9]
+    const row8 = [box3, box5, box7]
+    const rows = [row1, row2, row3, row4, row5, row6, row7, row8]
     // array zawierające x i o w rzedzach
-    const xs = [0, 0, 0, 0, 0, 0] 
-    const os = [0, 0, 0, 0, 0, 0]
+    const xs = [0, 0, 0, 0, 0, 0, 0, 0] 
+    const os = [0, 0, 0, 0, 0, 0, 0, 0]
     
     let i = 0
     for (i = 0; i < rows.length; i++) {
